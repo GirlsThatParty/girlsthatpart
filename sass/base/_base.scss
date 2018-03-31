@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   box-sizing: inherit;
+}
+
+html {
+
+   //setting font size to 62.5% will make 1rem be 10px. It's easier to calculate in units of 10 instead of 16.
+
+   // also when you use percentage with font-size makes it so that anything that uses rem units will resize when someone changes the font-size in their browser, which resizes the whole page instead of just the text
+   font-size: 62.5%;
+}
+
+body {
+   box-sizing: border-box;
+}

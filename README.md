@@ -1,2 +1,2 @@
-# girlsthatpart
+# girlsthatparty
 Bachelorette party planning website
