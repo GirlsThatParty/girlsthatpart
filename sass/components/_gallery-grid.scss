@@ -1,0 +1,5 @@
+.gallery-grid {
+   display: grid;
+   background-color: lightblue;
+   grid-template-columns: repeat(1fr, auto);
+}
