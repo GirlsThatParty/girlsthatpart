@@ -11,22 +11,6 @@ html {
 body {
   box-sizing: border-box; }
 
-.contact {
-  background-color: lightgrey;
-  height: 100vh; }
-
-.footer {
-  background-color: lightblue;
-  height: 20rem; }
-
-.header {
-  width: 100%;
-  height: 75vh;
-  background-image: url(../img/header2.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; }
-
 .navigation {
   position: fixed;
   top: 0;
@@ -61,3 +45,36 @@ body {
     font-size: 1.5rem; }
     .navigation__link:hover {
       color: gold; }
+
+.gallery {
+  padding-top: 6rem;
+  max-width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 30rem);
+  background-color: #2196f3;
+  grid-gap: 1rem; }
+  .gallery__item {
+    background-color: black;
+    text-align: center; }
+  .gallery__text {
+    color: white;
+    font-size: 3rem;
+    padding-top: 45%; }
+
+.contact {
+  background-color: lightgrey;
+  height: 100vh; }
+
+.footer {
+  background-color: lightblue;
+  height: 20rem; }
+
+.header {
+  width: 100%;
+  height: 75vh;
+  background-image: url(../img/header2.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }

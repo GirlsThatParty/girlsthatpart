@@ -1,5 +1,22 @@
-.gallery-grid {
+.gallery {
+   padding-top: 6rem;
+   max-width: 100%;
+   margin: 0 auto;
    display: grid;
-   background-color: lightblue;
-   grid-template-columns: repeat(1fr, auto);
+   grid-template-columns: repeat(4, 1fr);
+   grid-template-rows: repeat(2,30rem);
+   background-color: #2196f3;
+   grid-gap: 1rem;
+
+   &__item {
+      background-color: black;
+      text-align: center;
+   }
+
+   &__text {
+      color: white;
+      font-size: 3rem;
+      padding-top: 45%;
+   }
+
 }
