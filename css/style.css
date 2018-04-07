@@ -11,22 +11,6 @@ html {
 body {
   box-sizing: border-box; }
 
-.contact {
-  background-color: lightgrey;
-  height: 100vh; }
-
-.footer {
-  background-color: lightblue;
-  height: 20rem; }
-
-.header {
-  width: 100%;
-  height: 75vh;
-  background-image: url(../img/header2.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; }
-
 .navigation {
   position: fixed;
   top: 0;
@@ -61,3 +45,37 @@ body {
     font-size: 1.5rem; }
     .navigation__link:hover {
       color: gold; }
+
+.contact {
+  background-color: lightgrey;
+  height: 100vh; }
+
+.footer {
+  background-color: lightblue;
+  height: 20rem; }
+
+.header {
+  width: 100%;
+  height: 75vh;
+  background-image: url(../img/header2.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.gallery {
+  height: 400px;
+  background-color: red; }
+
+.section-about {
+  color: black;
+  margin-top: 3rem;
+  padding: 10px;
+  font-size: 18px; }
+
+.about-img {
+  width: 100%;
+  height: 75vh;
+  background-image: url(../img/about.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }

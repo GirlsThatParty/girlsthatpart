@@ -6,12 +6,14 @@
 @import "base/base";
 @import "base/typography";
 @import "base/utilities";
+@import "components/navigation";
+@import "components/about";
 
 @import "layout/contact";
 @import "layout/footer";
 @import "layout/header";
 
 @import "pages/gallery";
+@import "pages/aboutpage";
 
 
-@import "components/navigation";
