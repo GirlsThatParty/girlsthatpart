@@ -1,22 +1,23 @@
 .gallery {
    padding-top: 6rem;
-   max-width: 100%;
+   max-width: 80%;
    margin: 0 auto;
    display: grid;
    grid-template-columns: repeat(4, 1fr);
-   grid-template-rows: repeat(2,30rem);
    background-color: #2196f3;
    grid-gap: 1rem;
 
    &__item {
       background-color: black;
-      text-align: center;
    }
 
-   &__text {
-      color: white;
-      font-size: 3rem;
-      padding-top: 45%;
+   &__img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
    }
+
+
 
 }
